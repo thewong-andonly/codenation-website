@@ -1,0 +1,62 @@
+body {
+    background-image: url('images/backgroundMountain.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center; 
+    color: white; 
+    font-family: arial; 
+    font-size: 100px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+}
+
+a:hover {
+    color: #fdec6e;
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+
+.navbar {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white; 
+    font-family: arial; 
+    font-size: 15px;
+    background-color: MediumSeaGreen;
+}
+
+.content {
+    font-size: 17px; 
+    text-align: justify; 
+    color: #FFEBCD;
+    max-width: 960px;  
+    margin: auto;
+    font-family: arial;
+    bottom: 100 px;
+}
